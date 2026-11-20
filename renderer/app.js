@@ -437,7 +437,8 @@ async function doExport(outH, kind, crf, destOverride) {
 
 // ---------- keys ----------
 document.addEventListener('keydown', (e) => {
-  if (e.target.matches('input,textarea,select')) return; const k = e.key.toLowerCase();
+  if (e.target.matches('input,textarea,select')) return;
+  if (document.querySelector('.modal-back') || (!e.ctrlKey && !e.metaKey && e.target.matches('select,button,[contenteditable]'))) return; const k = e.key.toLowerCase();
   if (e.code === 'Space') { e.preventDefault(); togglePlay(); }
   else if (k === 's' && !e.ctrlKey) splitAt();
   else if (e.ctrlKey && k === 's') { e.preventDefault(); saveProject(); }
