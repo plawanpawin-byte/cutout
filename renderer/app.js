@@ -53,8 +53,8 @@ toolbar.append(btn('Open project', openProject), btn('Save project', saveProject
 // ---------- media bin ----------
 const MFILTERS = [['Video, audio and images', ['mp4', 'mkv', 'mov', 'webm', 'avi', 'm4v', 'mp3', 'wav', 'flac', 'm4a', 'aac', 'ogg', 'opus', 'png', 'jpg', 'jpeg', 'bmp', 'webp', 'gif']], ['All files', ['*']]];
 const IMG = /\.(png|jpe?g|bmp|webp)$/i;
-async function importMedia() {
-  const files = await window.host.openFiles({ read: false, multi: true, filters: MFILTERS });
+async function importMedia(dropped) {
+  const files = Array.isArray(dropped) ? dropped : await window.host.openFiles({ read: false, multi: true, filters: MFILTERS });
   for (const f of files) await addMedia(f);
   renderBin();
 }
@@ -451,3 +451,4 @@ document.addEventListener('keydown', (e) => {
 });
 window.addEventListener('beforeunload', (e) => { if (dirty) { e.preventDefault(); e.returnValue = ''; } });
 renderAll(); setTimeout(drawFrame, 50);
+window.host.onDrop((items) => { const m = items.filter((f) => /.(mp4|mov|mkv|webm|avi|m4v|mp3|wav|m4a|aac|flac|ogg|png|jpe?g|bmp|webp)$/i.test(f.name)); if (m.length) importMedia(m); else if (items.length) toast('Drop video, audio or picture files'); });
