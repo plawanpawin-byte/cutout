@@ -1,6 +1,6 @@
 <p align="center"><img src="screenshots/banner.png" alt="Cutout" width="100%"></p>
 
-<p align="center"><b>Video editing on a timeline</b><br>Version 1.0.2 for Windows · Free · Offline · No account</p>
+<p align="center"><b>Video editing on a timeline</b><br>Version 1.0.3 for Windows · Free · Offline · No account</p>
 
 <p align="center"><a href="https://github.com/plawanpawin-byte/cutout/releases/latest"><b>Download Cutout</b></a> · <a href="https://github.com/plawanpawin-byte/Lookout">All Lookout apps</a></p>
 
@@ -14,7 +14,7 @@ Cutout is a video editor with a multi-track timeline. Import clips, place them i
 
 **On this page:** [Screenshots](#see-it-in-action) · [Interface](#the-interface) · [Features](#everything-it-can-do) · [How to use it](#how-to-use-it) · [Shortcuts](#keyboard-shortcuts) · [Formats](#files-and-formats) · [Privacy](#private-by-design) · [Install](#install) · [Questions](#questions)
 
-## What is new in 1.0.2
+## What is new in 1.0.3
 
 A refreshed interface: every toolbar button now has a clear line icon, the app's mark sits at the top left, controls share one height and spacing, panels line up in tidy grids, and the toolbar keeps every button reachable on smaller windows by switching less important buttons to icons.
 
