@@ -441,6 +441,7 @@ document.addEventListener('keydown', (e) => {
   if (e.code === 'Space') { e.preventDefault(); togglePlay(); }
   else if (k === 's' && !e.ctrlKey) splitAt();
   else if (e.ctrlKey && k === 's') { e.preventDefault(); saveProject(); }
+  else if (e.ctrlKey && k === 'o') { e.preventDefault(); openProject(); }
   else if (e.ctrlKey && k === 'z') { e.preventDefault(); e.shiftKey ? redo() : undo(); }
   else if (e.ctrlKey && k === 'y') { e.preventDefault(); redo(); }
   else if (e.key === 'Delete' || e.key === 'Backspace') delSel();
