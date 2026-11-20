@@ -451,4 +451,4 @@ document.addEventListener('keydown', (e) => {
 });
 window.addEventListener('beforeunload', (e) => { if (dirty) { e.preventDefault(); e.returnValue = ''; } });
 renderAll(); setTimeout(drawFrame, 50);
-window.host.onDrop((items) => { const m = items.filter((f) => /.(mp4|mov|mkv|webm|avi|m4v|mp3|wav|m4a|aac|flac|ogg|png|jpe?g|bmp|webp)$/i.test(f.name)); if (m.length) importMedia(m); else if (items.length) toast('Drop video, audio or picture files'); });
+window.host.onDrop((items) => { const m = items.filter((f) => /\.(mp4|mov|mkv|webm|avi|m4v|mp3|wav|m4a|aac|flac|ogg|png|jpe?g|bmp|webp)$/i.test(f.name)); if (m.length) importMedia(m); else if (items.length) toast('Drop video, audio or picture files'); });
