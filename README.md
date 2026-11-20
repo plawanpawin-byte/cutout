@@ -1,6 +1,6 @@
 <p align="center"><img src="screenshots/banner.png" alt="Cutout" width="100%"></p>
 
-<p align="center"><b>Video editing on a timeline</b><br>Version 1.0.1 for Windows · Free · Offline · No account</p>
+<p align="center"><b>Video editing on a timeline</b><br>Version 1.0.2 for Windows · Free · Offline · No account</p>
 
 <p align="center"><a href="https://github.com/plawanpawin-byte/cutout/releases/latest"><b>Download Cutout</b></a> · <a href="https://github.com/plawanpawin-byte/Lookout">All Lookout apps</a></p>
 
@@ -11,6 +11,12 @@ Cutout is a video editor with a multi-track timeline. Import clips, place them i
 **Made for:** Anyone who wants to cut together holiday clips, tutorials, screen recordings or short social videos without a subscription or a watermark.
 
 ![Cutout](screenshots/01-timeline.png)
+
+**On this page:** [Screenshots](#see-it-in-action) · [Interface](#the-interface) · [Features](#everything-it-can-do) · [How to use it](#how-to-use-it) · [Shortcuts](#keyboard-shortcuts) · [Formats](#files-and-formats) · [Privacy](#private-by-design) · [Install](#install) · [Questions](#questions)
+
+## What is new in 1.0.2
+
+A refreshed interface: every toolbar button now has a clear line icon, the app's mark sits at the top left, controls share one height and spacing, panels line up in tidy grids, and the toolbar keeps every button reachable on smaller windows by switching less important buttons to icons.
 
 ## See it in action
 
@@ -43,6 +49,12 @@ Pick a size, a format and a quality level before rendering.
 ![What you get out](screenshots/05-exported-video-frame.png)
 
 A frame taken from the exported video file.
+
+## The interface
+
+- **Top bar:** open and save projects, import media, play and stop, the time readout, split, delete, undo and redo, aspect ratio, and Export.
+- **Left panel:** your imported media, each with an Add button. **Centre:** the preview. **Right panel:** settings of the selected clip.
+- **Timeline (bottom):** two video tracks and an audio track with a time ruler and a playhead.
 
 ## Everything it can do
 
@@ -126,5 +138,15 @@ Never.
 ## About Lookout
 
 Cutout belongs to the **[Lookout](https://github.com/plawanpawin-byte/Lookout)** family: ten small, private Windows apps for documents and media, all with the same calm grey look and the same promise that your files stay yours. Install and update them together with the [Lookout launcher](https://github.com/plawanpawin-byte/lookout-launcher).
+
+- **[Pageout](https://github.com/plawanpawin-byte/pageout)**: read, annotate and sign pdfs
+- **[Chartout](https://github.com/plawanpawin-byte/chartout)**: flowcharts and diagrams
+- **[Branchout](https://github.com/plawanpawin-byte/branchout)**: mind maps and outlines
+- **[Planout](https://github.com/plawanpawin-byte/planout)**: plans and gantt timelines
+- **[Frameout](https://github.com/plawanpawin-byte/frameout)**: screen design and prototypes
+- **[Shiftout](https://github.com/plawanpawin-byte/shiftout)**: convert and compress media
+- **[Castout](https://github.com/plawanpawin-byte/castout)**: record your screen
+- **[Mendout](https://github.com/plawanpawin-byte/mendout)**: repair damaged media
+- **[Tuneout](https://github.com/plawanpawin-byte/tuneout)**: record and edit audio
 
 Released under the MIT License.
