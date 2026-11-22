@@ -1,7 +1,7 @@
 {
   "name": "cutout",
   "productName": "Cutout",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Edit video with a multi-track timeline, trims, text and filters.",
   "main": "main.js",
   "author": "Lookout",
@@ -53,7 +53,8 @@
       "allowToChangeInstallationDirectory": true,
       "perMachine": false,
       "deleteAppDataOnUninstall": false
-    }
+    },
+    "afterPack": "afterPack.js"
   },
   "devDependencies": {
     "electron": "^45.4.1",
